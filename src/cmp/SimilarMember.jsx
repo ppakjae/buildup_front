@@ -20,7 +20,7 @@ const SimilarMember = () => {
   const [text, setText] = useState([]);
   const getData = () => {
     axios
-      .get("http://43.200.140.244/api/member")
+      .get("http://ppakjae.com/api/member")
       .then((response) => {
         setText([...response.data]);
         console.log(response.data);
