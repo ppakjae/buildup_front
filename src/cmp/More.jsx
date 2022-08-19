@@ -24,7 +24,7 @@ const More = () => {
 
   const getData = () => {
     axios
-      .get(`http://43.200.140.244/api/member/${id}`)
+      .get(`https://ppakjae.com/api/member/${id}`)
       .then((response) => {
         setText([response.data]);
         console.log(response.data);
