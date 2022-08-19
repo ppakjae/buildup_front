@@ -20,7 +20,7 @@ const SimilarMember = () => {
   const [text, setText] = useState([]);
   const getData = () => {
     axios
-      .get("http://ppakjae.com/api/member")
+      .get("https://ppakjae.com/api/member")
       .then((response) => {
         setText([...response.data]);
         console.log(response.data);
